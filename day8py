@@ -1,0 +1,62 @@
+#Write a program to find the difference between two sets (elements in one set but not in the other).
+
+# Define two sets
+set1 = {1, 2, 3, 4}  #solution
+set2 = {3, 4, 5, 6}
+
+# Find the difference
+difference_set = set1.difference(set2)
+
+# Print result
+print("Difference between set1 and set2:", difference_set)
+
+#Write a program to remove duplicates from a list by converting it to a set.
+
+# Defining a list with duplicates
+numbers = [1, 2, 2, 3, 3, 3, 4, 4, 5] #solution
+
+# Remove duplicates using a set
+unique_numbers = set(numbers)
+
+# Print results
+print("Original List:", numbers)
+print("List without duplicates:", list(unique_numbers))
+
+#Write a program to create a set and add multiple elements to it.
+
+# Created an empty set
+my_set = set() #solution
+
+# Add elements to the set
+my_set.add(10)
+my_set.add(20)
+my_set.add(30)
+
+# Print the set
+print("Set after adding elements:", my_set)
+
+#Write a program to check if one set is a subset of another set.
+
+# Define two sets
+set1 = {1, 2}  #solution
+set2 = {1, 2, 3, 4}
+
+# Check if set1 is a subset of set2
+is_subset = set1.issubset(set2)
+
+# Print result
+print("Is set1 a subset of set2?", is_subset)
+
+#Write a program to find the union and intersection of two sets.
+
+# Define two sets
+set1 = {1, 2, 3} #solution
+set2 = {3, 4, 5}
+
+# Find union and intersection
+union_set = set1.union(set2)
+intersection_set = set1.intersection(set2)
+
+# Print results
+print("Union of sets:", union_set)
+print("Intersection of sets:", intersection_set)
