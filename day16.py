@@ -1,3 +1,12 @@
+# Define the graph
+graph = {
+    0: [1, 2],
+    1: [0, 3, 4],
+    2: [0],
+    3: [1],
+    4: [1]
+}
+
 # Iterative DFS
 def dfs_iterative(graph, start):
     visited = set()
